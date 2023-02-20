@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="principal">
+        <div id="navegacao">
+            <h1>Calculadora</h1>
+            <input type="text" placeholder="Digite o número 1" id="valor1">
+            <br>
+            <input type="text" placeholder="Digite o número 2" id="valor2">
+            <br>
+            <input type="radio" id="radio1" value="somar" name="radio">+
+            <input type="radio" id="radio2" value="subtrair" name="radio">-
+            <input type="radio" id="radio3" value="multiplicar" name="radio">*
+            <input type="radio" id="radio4" value="dividir" name="radio">/
+            <br>
+            <button onclick="calcular()">Calcular</button>
+            <h5 id="resultado"></h5>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

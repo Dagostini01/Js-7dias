@@ -1,0 +1,33 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: aquamarine;
+    height: 100%;
+    margin: 0;
+}
+
+#principal{
+    border: 1px solid black;
+    height: 99.75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navegacao{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgb(255, 255, 24);
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
